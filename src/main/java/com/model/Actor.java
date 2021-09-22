@@ -5,14 +5,14 @@ import javax.persistence.Entity;
 @Entity(name = "actor")
 public class Actor extends Person{
 
-    private int yearsActive;
+    private String skills;
 
-    public int getYearsActive() {
-        return yearsActive;
+    public String getYearsActive() {
+        return skills;
     }
 
-    public void setYearsActive(int yearsActive) {
-        this.yearsActive = yearsActive;
+    public void setYearsActive(String skills) {
+        this.skills = skills;
     }
 
 }
