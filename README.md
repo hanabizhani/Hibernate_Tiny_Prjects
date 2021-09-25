@@ -14,3 +14,7 @@ Using Joined strategy, each class in the hierarchy is mapped to its table. The o
 
 As the queries themselves are tied to the Java method that runs them, you can actually bind them directly by using the Spring Data JPA @Query annotation rather than annotating them to the domain class. This frees the domain class from persistence specific information and co-locates the query to the repository interface
 
+### spring_data_Envers:
+
+At some point of every company’s adult life it starts reassessing the sanity and quality of its data set. One of the ways to regain the trust is to introduce auditing and versioning of database entities, which is exactly what Hibernate Envers is for.
+
