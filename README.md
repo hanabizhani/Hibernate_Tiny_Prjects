@@ -18,3 +18,9 @@ As the queries themselves are tied to the Java method that runs them, you can ac
 
 At some point of every company’s adult life it starts reassessing the sanity and quality of its data set. One of the ways to regain the trust is to introduce auditing and versioning of database entities, which is exactly what Hibernate Envers is for.
 
+Track `/Addfilm` post request in `FilmController.java` in order to see full Audit log
+
+### spring_data_paging
+
+Implement paging and sorting with method `getAllFilms` in `FilmController.java`
+
